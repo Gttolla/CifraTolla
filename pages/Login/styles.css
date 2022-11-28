@@ -1,0 +1,36 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+.menu{
+    height: 65px;
+    width: 97%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 50px;
+}   
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    background-color: white;
+    border: solid rgba(0, 0, 0, 0.2) 1px; 
+    border-radius: 8px;
+    padding: 20px;
+}
+h2{
+    margin-top: 70px;
+}
+
+
