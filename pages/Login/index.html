@@ -15,40 +15,52 @@
     <img src="/imgs/assets/login.jpg" alt="login" style="float: left;">
     
     <div class="menu">
-        <a href="">Acesse sua conta</a>
-        <a href="">Fale conosco</a>
+        <a href="#">Acesse sua conta</a>
+        <a href="https://suporte.cifraclub.com.br/">Fale conosco</a>
     </div>
 
     <div class="main">
         <form action="">
             <h2>Cadastre-se</h2>
             <fieldset>
-                <div class="between">
+                <div class="bold">
                     <label for="">Nome Completo</label>
                     <br>
-                    <input type="text" maxlength="50" required>
+                    <input type="text" maxlength="50" size="35%" required>
                     <br>
 
                     <label for="">Email</label>
                     <br>
-                    <input type="email" required>   
+                    <input type="email" size="35%" required>   
                     <br>
 
-                    <label for="">Senha</label>
-                    <input type="password" required>
-                    <label for="">Repetir senha</label>
-                    <input type="password">
+                    <div id="password">
+                        <label for="">Senha</label>
+                        <br>
+                        <input type="password" size="12%" required>
+                    </div>
+                    <div id="r-password">
+                        <label for="">Repetir senha</label>
+                        <br>
+                        <input type="password" size="12%">
+                    </div>
                     <br>
 
                     <label for="">Data de Nascimento</label>
+                    <br>
                     <input type="date" required>     
                     <br>
+                </div>
 
+                <div class="center">
                     <input type="checkbox" id="li" required>
-                    <label for="li">Li e aceito os termos de uso do Cifra Club ID</label>    
+                    <label for="li" style="font-size: 14px;">Li e aceito os <a href="https://www.cifraclub.com.br/aviso-legal.html" class="orange">termos de uso do Cifra Club ID</a></label>    
                     <br>
 
                     <input type="submit">
+                    <br>
+
+                    <span>Ou <a href="#" class="orange">acesse sua conta</a></span>
                 </div>
             </fieldset>
         </form>

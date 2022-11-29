@@ -28,9 +28,46 @@ fieldset{
     border: solid rgba(0, 0, 0, 0.2) 1px; 
     border-radius: 8px;
     padding: 20px;
+    color: #424242;
 }
 h2{
     margin-top: 70px;
 }
-
-
+.bold label{
+    font-weight: bold;
+}
+input{
+    border-radius: 11px;
+    border: solid rgba(0, 0, 0, 0.2) 1px;
+    padding: 13px 25px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 30px;
+}
+#password, #r-password{
+    display: inline-block;
+}
+#password{
+    margin-right: 9px;
+}
+input[type="checkbox"]{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    vertical-align: middle; 
+}
+.center{
+    margin: 0 10%;
+    text-align: center;
+}
+.orange{
+    color: #f70; 
+    text-decoration: none;
+}
