@@ -47,12 +47,14 @@ input:focus{
     background-color: rgba(0, 0, 0, 0.04);
     border-radius: 10px;
     padding: 10px;
+    
 }
 #entrar{
     border-left: solid 1px rgba(0, 0, 0, 0.2);
 }
 .main{
     margin: 0 15%;
+    margin-bottom: 60px;
 }
 .border{
     border-radius: 100% 100% 100% 18%;
@@ -82,9 +84,21 @@ input:focus{
 .title{
     font-family: "Montserrat",sans-serif;
 }
+.social{
+    float: right;
+    opacity: 0.7;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.social img{
+    float: right;
+    height: 27px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
 h1, h3{
-    margin: 0;
-    
+    margin: 0; 
+    width: 700px;  
 }
 select{
     padding: 7px 12px;
@@ -126,4 +140,20 @@ iframe{
 }
 #re{
     margin-right: 150px;
+}
+.footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e2e2e;
+    color: #f70;
+    font-weight: bold;
+}
+.footer a{
+    margin-top: 20px;
+    color: #f70;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
 }
